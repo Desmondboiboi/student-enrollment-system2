@@ -2,8 +2,8 @@
 /**
  * Admin → Manage Courses.
  * Full CRUD. Quota cannot be lowered below the current enrolled_count
- * (safety check enforced here in the controller before delegating to
- * CourseModel::update).
+ * safety check enforced here in the controller before delegating to
+ * CourseModel::update.
  */
 require_once __DIR__ . '/../includes/bootstrap.php';
 require_admin();
