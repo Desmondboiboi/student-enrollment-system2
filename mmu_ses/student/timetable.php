@@ -10,7 +10,7 @@ $user = current_user();
 
 $enrolled = EnrollmentModel::activeForStudent($user['id']);
 
-// ----- Parse schedules -----
+// True Format time table until 8pm
 $days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
 $startHour = 8;
 $endHour   = 20; 
